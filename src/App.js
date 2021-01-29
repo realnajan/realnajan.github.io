@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import Header from './Sections/Header';
+import About from './Sections/About'
+import Projects from './Sections/Projects'
+import Social from './Sections/Social'
 import './App.css';
+import React, { useState } from 'react';
+import ColorSelector from './Components/ColorSelector'
+
+export const AccentContext = React.createContext('dracula-purple')
 
 function App() {
+
+  var colors = ['red', 'orange', 'yellow', 'green', 'cyan', 'purple', 'pink']
+  var randomcolor = colors[Math.floor(Math.random() * colors.length)];
+
+  const [accent, setAccent] = useState('dracula-' + randomcolor)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AccentContext.Provider value={accent}>
+        <div class="overflow-x-hidden dark">
+          <ColorSelector setAccent={setAccent}></ColorSelector>
+          <Header></Header>
+          <About></About>
+          <Projects></Projects>
+          <Social></Social>
+        </div>
+    </AccentContext.Provider>
   );
 }
 
