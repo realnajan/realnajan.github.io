@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1cd9a810.chunk.css",
+    "main.js": "/static/js/main.f700d945.chunk.js",
+    "main.js.map": "/static/js/main.f700d945.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c21c0fb8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c21c0fb8.js.map",
+    "static/js/2.f42c043e.chunk.js": "/static/js/2.f42c043e.chunk.js",
+    "static/js/2.f42c043e.chunk.js.map": "/static/js/2.f42c043e.chunk.js.map",
+    "static/js/3.d41c6ef7.chunk.js": "/static/js/3.d41c6ef7.chunk.js",
+    "static/js/3.d41c6ef7.chunk.js.map": "/static/js/3.d41c6ef7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1cd9a810.chunk.css.map": "/static/css/main.1cd9a810.chunk.css.map",
+    "static/js/2.f42c043e.chunk.js.LICENSE.txt": "/static/js/2.f42c043e.chunk.js.LICENSE.txt",
+    "static/media/bitcoinweek.18dc2274.png": "/static/media/bitcoinweek.18dc2274.png",
+    "static/media/moneypocket.babafaba.png": "/static/media/moneypocket.babafaba.png",
+    "static/media/robo-bot.e2f5a075.png": "/static/media/robo-bot.e2f5a075.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c21c0fb8.js",
+    "static/js/2.f42c043e.chunk.js",
+    "static/css/main.1cd9a810.chunk.css",
+    "static/js/main.f700d945.chunk.js"
+  ]
+}
